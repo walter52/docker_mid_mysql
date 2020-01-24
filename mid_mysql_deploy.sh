@@ -6,7 +6,7 @@
 #Version :v1.0
 #在vim中用"set ff=unix"切换格式或者使用"dos2unix"命令
 
-dockerName='mid_nginx'
+dockerName='mid_mysql'
 dockerTag='master'
 host='registry.cn-shenzhen.aliyuncs.com/walter_self'
 dockerInfo=$host/$dockerName:$dockerTag

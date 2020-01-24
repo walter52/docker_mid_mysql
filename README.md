@@ -1,2 +1,2 @@
-# docker_mid_nginx
-nginx镜像构建
+# docker_mid_mysql
+mysql镜像构建

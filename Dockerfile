@@ -1,4 +1,2 @@
-FROM nginx:1.17.3
-COPY /conf/default.conf /etc/nginx/conf.d
-COPY /conf/index.html /usr/share/nginx/html
+FROM mysql:5.6.47
 
