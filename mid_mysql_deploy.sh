@@ -31,4 +31,5 @@ if [ -n "$existContainer" ]; then
     fi
 
 fi
-docker run -d --name $dockerName -d -p 80:80 $dockerInfo
+docker run -d -p 3306:3306 --restart always --privileged=true --name $dockerName -e MYSQL_ROOT_PASSWORD=kgdiyniqmq -v=/data/db/mysql:/var/lib/mysql $dockerInfo
+
